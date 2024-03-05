@@ -1,12 +1,14 @@
-#Esto es una prueba#
+# Esto es una prueba#
 Párrafo
--Lista1
--Lista2
+- Lista1
+- Lista2
 
-__Probando__ texto _diferente_
+**Probando** texto *diferente*
 
 ~~~
 Esto sería código
 ~~~
 
 Y aqui un ejemplo de párrafo.
+
+***Corregido***
