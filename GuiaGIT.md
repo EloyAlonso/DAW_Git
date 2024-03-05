@@ -45,11 +45,11 @@ Aquí veremos una guía resumen de los comandos más importantes y utilizados en
      ~~~
      git reset {archivo(s)}
      ~~~
-     o
+     o para borrar los cambios en todos los archivos en el repositorio:
      ~~~
      git reset
      ~~~
-     para borrar los cambios en todos los archivos en el repositorio
+     
    - Si quieres ver todos los cambios que se han hecho a los archivos:
      ~~~
      git diff
