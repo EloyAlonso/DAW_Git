@@ -1,9 +1,8 @@
 # Guía de GIT
 
 Aquí veremos una guía resumen de los comandos más importantes y utilizados en GIT, para qué funcionan y cómo se usan.
-
-1. Inicio
-  - Para empezar necesitamos establecer las variables de configuración global, que son muy importantes, especialmente si estás trabajando con otros desarrolladores. La principal ventaja de esto es que es más fácil averiguar quién ha hecho un commit de        determinado bloque de código:
+## 1. Inicio.
+      - Para empezar necesitamos establecer las variables de configuración global, que son muy importantes, especialmente si estás trabajando con otros desarrolladores. La principal ventaja de esto es que es más fácil averiguar quién ha hecho un commit de determinado bloque de código:
     ~~~
     git config --global user.name “ Tu Nombre ”
     git config --global user.email “tucorreo@correo”
@@ -20,7 +19,7 @@ Aquí veremos una guía resumen de los comandos más importantes y utilizados en
     ~~~
     git clone {repositorio}
     ~~~
-2. ¿Donde estoy?
+## 2. ¿Donde estoy?
    - Este comando enumerará las ubicaciones de donde el repositorio local obtendrá los cambios realizados externamente y a dónde serán enviadas tus confirmaciones o cambios que realices al repositorio remoto:
      ~~~
      git remote -v
@@ -29,7 +28,7 @@ Aquí veremos una guía resumen de los comandos más importantes y utilizados en
      ~~~
      git branch -a
      ~~~
-3. ¿Commit?
+## 3. ¿Commit?
    - Antes de hacer un commit, que sería para guardar los cambios, se puede comprobar el estado:
      ~~~
      git status
