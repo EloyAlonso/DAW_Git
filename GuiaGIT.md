@@ -2,11 +2,11 @@
 
 Aquí veremos una guía resumen de los comandos más importantes y utilizados en GIT, para qué funcionan y cómo se usan.
 ## 1. Inicio.
-      - Para empezar necesitamos establecer las variables de configuración global, que son muy importantes, especialmente si estás trabajando con otros desarrolladores. La principal ventaja de esto es que es más fácil averiguar quién ha hecho un commit de determinado bloque de código:
-    ~~~
-    git config --global user.name “ Tu Nombre ”
-    git config --global user.email “tucorreo@correo”
-    ~~~
+  - Para empezar necesitamos establecer las variables de configuración global, que son muy importantes, especialmente si estás trabajando con otros desarrolladores. La principal ventaja de esto es que es más fácil averiguar quién ha hecho un commit de      determinado bloque de código:
+      ~~~
+      git config --global user.name “ Tu Nombre ”
+      git config --global user.email “tucorreo@correo”
+      ~~~
   - Por temas de compatibilidad podemos comprobar la version antes de nada con:
     ~~~
     git --version
