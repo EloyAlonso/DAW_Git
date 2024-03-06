@@ -94,3 +94,7 @@ Aquí veremos una guía resumen de los comandos más importantes y utilizados en
      ~~~
       git reset HEAD~1
      ~~~
+   - Para eliminar una rama:
+     ~~~
+      git branch -d nombre_rama
+     ~~~
