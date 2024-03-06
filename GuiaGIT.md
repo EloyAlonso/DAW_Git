@@ -54,3 +54,43 @@ Aquí veremos una guía resumen de los comandos más importantes y utilizados en
      ~~~
      git diff
      ~~~
+   - Guarda los cambios con un commit:
+     ~~~
+     git commit -m "Mensaje del commit"
+     ~~~
+     "-m" especifica un mensaje que se debe pasar describiendo la confirmación.
+## 4. Ramas, registros, subidas y descargas
+   - Para consultar los commits que se han hecho con su fecha y demás información útil como el autor del commit usa:
+     ~~~
+      git log
+     ~~~
+   - Para enviar estos cambios a tu repositorio remoto ejecuta:
+     ~~~
+      git push origin master
+     ~~~
+     Donde *origin* es el nombre del respositorio y *master* la rama a la que quieres enviar tus cambios, *master* es la rama principal, ten cuidado si no quieres hacerla a *master*.
+   - Para crear una nueva rama se puede hacer de 2 maneras, la primera simplemente la crea, la segunda la crea y pasas a utilizarla
+     ~~~
+      git branch nombre_de_la_rama
+      git checkout -b nombre_de_la_rama
+     ~~~
+   - Si solamente quieres moverte a una rama usa:
+     ~~~
+      git checkout nombre_de_la_rama
+     ~~~
+   - Actualizar tu repositorio local con:
+     ~~~
+      git pull origin nombre_rama
+     ~~~
+   - Fusionar una rama con la rama actual:
+     ~~~
+      git merge nombre_rama
+     ~~~
+   - Para deshacer cambios locales no comprometidos:
+     ~~~
+      git checkout -- nombre_archivo
+     ~~~
+   - Para deshacer el último commit (cuidado, puede ser peligroso):
+     ~~~
+      git reset HEAD~1
+     ~~~
