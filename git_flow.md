@@ -38,6 +38,15 @@ Aquí veremos un resumen del funcionamiento de Git-flow:
     git flow release finish nombre_release
   ~~~
   Esto fusionará la rama de release con master y develop, y aplicará un nuevo tag.
+## Comandos adicionales
+   - Puedes ver el estado del flujo de trabajo Git-flow con:
+   ~~~
+    git flow status
+   ~~~
+   - Puedes configurar opciones avanzadas del flujo de trabajo Git-flow con:
+   ~~~
+    git flow config
+   ~~~
 ## Integración Continua:
   - La rama develop siempre refleja la versión en desarrollo.
   - La rama master refleja la versión estable actual.
