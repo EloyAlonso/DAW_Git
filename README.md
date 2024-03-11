@@ -78,10 +78,11 @@ Es una práctica fundamental en el desarrollo ágil de software, permitiendo la 
   - **GitLab CI/CD:** Integrado directamente con repositorios GitLab, ofrece funcionalidades CI/CD completas con configuración basada en archivos.
   - **TeamCity:** Una herramienta de CI/CD de JetBrains con amplias capacidades de integración y personalización.
 ## Runners (Ejecutores)
-  Los "runners" son componentes que ejecutan trabajos de CI/CD. Pueden ser máquinas virtuales, contenedores o incluso instancias compartidas.
+  - Los "runners" son componentes que ejecutan trabajos de CI/CD. Pueden ser máquinas virtuales, contenedores o incluso instancias compartidas.
 ## Pipelines
-  Una pipeline es un conjunto de pasos o trabajos que se ejecutan en secuencia o de manera paralela. Define el flujo de trabajo de CI/CD, desde la construcción hasta el despliegue.
+  - Una pipeline es un conjunto de pasos o trabajos que se ejecutan en secuencia o de manera paralela. Define el flujo de trabajo de CI/CD, desde la construcción hasta el despliegue.
 ## Stages (Etapas)
-  Las etapas son fases dentro de una pipeline que agrupan trabajos relacionados. Pueden incluir pasos como compilación, pruebas, y despliegue.
+  - Las etapas son fases dentro de una pipeline que agrupan trabajos relacionados. Pueden incluir pasos como compilación, pruebas, y despliegue.
+
 En resumen, los runners ejecutan los trabajos, las pipelines definen la secuencia de tareas, y las stages agrupan trabajos relacionados en etapas específicas del proceso. 
 Estas herramientas y conceptos forman la base de la automatización de la integración continua y la entrega continua en proyectos de desarrollo de software.
