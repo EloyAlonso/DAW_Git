@@ -64,3 +64,24 @@ Existen Workflows alternativos como:
   9. **Tag:** Crea un tag para la versión.
 
 [Aquí tienes una guía básica de git-flow](/git_flow.md)
+
+# Integración continua (CI)
+La integración continua (CI) es una práctica en desarrollo de software donde los cambios de código se combinan automáticamente. 
+Se ejecutan pruebas automáticas y se realiza un análisis del código para detectar errores tempranos. La retroalimentación rápida ayuda a los desarrolladores a corregir problemas de inmediato. 
+También establece una base para la entrega continua, facilitando despliegues automáticos y contribuyendo a la mejora continua del proceso de desarrollo.
+Es una práctica fundamental en el desarrollo ágil de software, permitiendo la detección temprana de problemas, mejorando la calidad del código y facilitando la entrega continua de software confiable.
+## Herramientas de Integración Continua:
+  Existen varias herramientas que pueden implementar la integración continua
+  - **Jenkins:**  Una plataforma de automatización de código abierto que admite la construcción, prueba y despliegue de proyectos.
+  - **Travis CI:** Una herramienta basada en la nube que integra con GitHub y realiza CI automáticamente para proyectos alojados en GitHub.
+  - **CircleCI:** Proporciona integración continua y despliegue continuo en la nube, con soporte para varias plataformas y lenguajes.
+  - **GitLab CI/CD:** Integrado directamente con repositorios GitLab, ofrece funcionalidades CI/CD completas con configuración basada en archivos.
+  - **TeamCity:** Una herramienta de CI/CD de JetBrains con amplias capacidades de integración y personalización.
+## Runners (Ejecutores)
+  Los "runners" son componentes que ejecutan trabajos de CI/CD. Pueden ser máquinas virtuales, contenedores o incluso instancias compartidas.
+## Pipelines
+  Una pipeline es un conjunto de pasos o trabajos que se ejecutan en secuencia o de manera paralela. Define el flujo de trabajo de CI/CD, desde la construcción hasta el despliegue.
+## Stages (Etapas)
+  Las etapas son fases dentro de una pipeline que agrupan trabajos relacionados. Pueden incluir pasos como compilación, pruebas, y despliegue.
+En resumen, los runners ejecutan los trabajos, las pipelines definen la secuencia de tareas, y las stages agrupan trabajos relacionados en etapas específicas del proceso. 
+Estas herramientas y conceptos forman la base de la automatización de la integración continua y la entrega continua en proyectos de desarrollo de software.
