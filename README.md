@@ -63,4 +63,4 @@ Existen Workflows alternativos como:
   8. **Merge a Main:** Fusiona la rama de release en `main`.
   9. **Tag:** Crea un tag para la versión.
 
-Poner aqui link de git-flow tutorial
+[Aquí tienes una guía básica de git-flow](/git_flow.md)
