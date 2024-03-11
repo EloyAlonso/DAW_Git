@@ -86,3 +86,5 @@ Es una práctica fundamental en el desarrollo ágil de software, permitiendo la 
 
 En resumen, las herramientas gestionan los flujos de trabajo de CI/CD, los runners ejecutan los trabajos, las pipelines definen la secuencia de tareas, y las stages agrupan trabajos relacionados en etapas específicas del proceso. 
 Estas herramientas y conceptos forman la base de la automatización de la integración continua y la entrega continua en proyectos de desarrollo de software.
+
+[Aquí tienes una guía por pasos de comó deberías implementar IC](/ic.md)
