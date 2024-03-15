@@ -88,3 +88,65 @@ En resumen, las herramientas gestionan los flujos de trabajo de CI/CD, los runne
 Estas herramientas y conceptos forman la base de la automatización de la integración continua y la entrega continua en proyectos de desarrollo de software.
 
 [Aquí tienes una guía por pasos de comó deberías implementar IC](/ic.md)
+
+# Despliegue automático de un sitio web en GitHub Pages
+Si quieres desplegar un sitio web en GitHub Pages te dejamos aquí un tutorial de cómo hacerlo:
+[Tutorial de despliegue de una web en GitHub Pages](/pages.md)
+
+# Configuración de un Theme en Hugo
+[Tutorial de configuracion de un Theme en Hugo](/hugo.md)
+
+# Uso Correcto de las Ramas en el Desarrollo de Software
+
+## Rama Principal (Main o Master):
+- Refleja siempre el estado estable y listo para producción del código.
+- Evita realizar cambios directamente en esta rama.
+- Todos los cambios deben hacerse a través de ramas secundarias y fusionarse con la rama principal mediante solicitudes de extracción (pull requests).
+
+## Ramas de Funcionalidades (Feature Branches):
+- Desarrolla cada nueva funcionalidad o tarea significativa en una rama independiente.
+- Nombra las ramas de manera descriptiva y significativa.
+- Desarrolla y prueba la funcionalidad en su propia rama.
+- Fusiona la rama de funcionalidad con la rama principal una vez que esté completa y probada.
+
+## Ramas de Correcciones (Bugfix Branches):
+- Soluciona errores o problemas en ramas de corrección de errores separadas.
+- Utiliza nombres claros y descriptivos para las ramas de corrección.
+- Desarrolla y prueba la solución en su propia rama.
+- Fusiona la rama de corrección con la rama principal una vez que esté resuelto.
+
+## Ramas de Versión (Release Branches):
+- Crea una rama de lanzamiento desde la rama principal antes de lanzar una nueva versión.
+- Realiza las pruebas finales y las correcciones necesarias en esta rama.
+- Fusiona la rama de lanzamiento con la rama principal y etiqueta la versión una vez que estés satisfecho con la versión.
+
+## Ramas de Hotfix (Hotfix Branches):
+- Crea una rama de hotfix desde la rama principal para solucionar problemas críticos en producción.
+- Soluciona el problema en esta rama y realiza las pruebas necesarias.
+- Fusiona la rama de hotfix con la rama principal y con cualquier rama de lanzamiento activa.
+
+## Ramas de Experimentación (Experimental Branches):
+- Para nuevas ideas o experimentos, crea ramas separadas para probar diferentes enfoques sin afectar el código principal.
+- Utiliza nombres que reflejen claramente la naturaleza experimental de estas ramas.
+
+# Reglas para la Redacción de Commits
+
+## 1. Se Conciso y Descriptivo
+- Limita el título del commit a 50 caracteres y el cuerpo a 72 caracteres por línea.
+- Usa un lenguaje claro y conciso para describir los cambios realizados.
+
+## 2. Sigue una Convención de Nombres
+- Utiliza verbos en infinitivo para indicar la acción realizada en el commit.
+- Usa un prefijo en el título del commit para indicar el tipo de cambio, como "feat" para nuevas características, "fix" para correcciones de errores, "docs" para cambios en la documentación, etc.
+
+## 3. Divide los Cambios en Commits Atómicos
+- Separa los cambios relacionados en commits individuales y atómicos.
+- Evita incluir múltiples cambios no relacionados en un solo commit.
+
+## 4. Escribe Mensajes Significativos
+- Proporciona contexto suficiente en el cuerpo del commit para explicar el qué, el por qué y el cómo de los cambios realizados.
+- Haz referencia a números de problemas o solicitudes de extracción relacionadas cuando sea aplicable.
+
+## 5. Mantén la Historia Limpia
+- Evita realizar cambios innecesarios en la historia del repositorio, como reordenar commits o modificar commits antiguos.
+- Utiliza herramientas como rebase interactivo o squash para limpiar la historia antes de fusionar ramas.
